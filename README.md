@@ -1,28 +1,19 @@
 # Project Title
 
-Simple TCP chat program using terminals. 
+Chat box project. 
 
-## Getting Started
+## Objective
 
-Inorder to get this to work some python experience is needed. 
-
-The scrip needs to be fed a proper IP address and before execution.
+Get a server to chat with a client to allow simutanous transfer of data.
 
 ### Prerequisites
 
 Python 2.4 and above
 
-### Installing
-1. run ipconfig(windows), or ifconfig(linux) and get your IP address.
-2. set the IP of the "ip" variable in the client.py to said IP.
-3. set the "port" variable in the client and the server to the same port.
-3. give the scrip executable privelages.
-4. type python server.py in one console and client.py on another console.
-5. SYN/ACK should be displayed in the terminal.
-
 ### Usage
-
-type a messege like you would to anyone online, and watch the server or client recive the messege and add a time stamp
+1. run the client ant server scripts in a terminal.
+2. Type  messege into one of the sessions.
+3. The client side program needs to have the host IP address in order to work.
 
 ## Built With
 
