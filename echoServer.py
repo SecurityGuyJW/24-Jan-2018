@@ -1,9 +1,32 @@
+##########################################################################################################
+#                                                                                                        #
+# 1. socket and threading will be imported to perform the server roles in this script.                   #
+#                                                                                                        #
+#    a. The first role of the server is to recieve some data.                                            #
+#                                                                                                        #
+#    b. The second role is to send some data.                                                            #
+#                                                                                                        #
+#    c. The third role is to maintain a connection.                                                      #
+#                                                                                                        #
+#    d. The fourth role is to maintain multiple clients.                                                 #
+#                                                                                                        #
+#    e. Finally, the last role is to close the socket, and terminate the connection.                     #
+#                                                                                                        #
+# 2. the instance variables ip and port will be fed into the socket through the bind command.            #
+#                                                                                                        #
+# 3. The script will achieve multithreading by recursively calling clientHandler.                        #
+#                                                                                                        #
+# 4. The script will run each thread until the user types xxx or an error occurs.                        #
+#                                                                                                        #
+##########################################################################################################
+
+
+
 import socket
 import threading
-import sys
 
 ip = ''
-port = 5005
+port = 5000
 
 conn = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
