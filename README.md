@@ -1,24 +1,39 @@
 # Project Title
 
-Chat box project. ------ not complete
+Echo Server
 
-## Objective
+## Goal
 
-Get a server to chat with a client to allow simutanous transfer of data.
+To create an echo server capable of sending user text messege from client to server and back.
 
 ### Prerequisites
 
-Python 2.4 and above
+1. Python 2.0 +
 
-### Usage
-1. run the client ant server scripts in a terminal.
-2. Type  messege into one of the sessions.
-3. The client side program needs to have the host IP address in order to work.
+2. In the echoSever.py the IP address and Port must be changed to that of the running connection.
+
+### Installing
+
+1. Download the script.
+
+2. Give executable rights to script.
+
+3. Enter python echoServer.py to start the server.
+
+4. Enter python echoServerClient.py to start the client.
 
 ## Built With
 
-Pycharm
+   Pycharm
+
+## Dev Notes
+
+1.The script runs solely on the input of the client.
+
+2.If you want to terminate the connection you need to type xxx
 
 ## Authors
+
+**Juan Wagner** 
 
 **Juan Wagner** 
